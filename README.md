@@ -18,7 +18,7 @@ In this repository, you will find a collection of data structures and algorithms
 
 ## Data Structures
 
--[Array](data_structures/Array): Implementations of singly and doubly linked lists.
+- [Array](data_structures/Arrays): Implementations of the list data structure.
 - [LinkedList](data_structures/linked_list.py): Implementations of singly and doubly linked lists.
 - [Stack](data_structures/stack.py): Implementation of a stack data structure.
 - [Queue](data_structures/queue.py): Implementation of a queue data structure.
@@ -27,7 +27,6 @@ In this repository, you will find a collection of data structures and algorithms
 - [HashMap](data_structures/hash_map.py): Implementation of a hash map.
 - [Graph](data_structures/graph.py): Basic graph representation and algorithms.
 
-(Add more data structures you've implemented)
 
 ## Algorithms
 
@@ -37,7 +36,6 @@ In this repository, you will find a collection of data structures and algorithms
 - [DynamicProgramming](algorithms/dynamic_programming.py): Dynamic programming problems and solutions.
 - [GraphAlgorithms](algorithms/graph_algorithms.py): Graph-related algorithms like Depth-First Search, Breadth-First Search.
 
-(Add more algorithms you've implemented)
 
 ## Usage
 
