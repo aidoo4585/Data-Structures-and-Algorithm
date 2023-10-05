@@ -1,0 +1,29 @@
+class Solution:
+    def majorityElement(self, nums: List[int]) -> List[int]:
+        candidate = None
+        count = 0 
+
+        #Step 1: Pick the first number as the current fav
+        for num in nums:
+            if count == 0: 
+                candidate = num
+            
+            # Step 2: If you find a num like the "current favorite," increase its count.
+            if num == candidate: 
+                count += 1
+            else: 
+                #num is not the current fav 
+                count -= 1 
+        
+        #The current fav may be the majority number, count it to make sure
+        count = 0 
+        for num in nums: 
+            if num == candidate: 
+                count += 1 
+        
+        #Step 4: If the current number count > # of take aways, its the majoirty number
+        if count > len(nums) // 2:
+            return candidate 
+        else: 
+            #No majority number
+            return None 
