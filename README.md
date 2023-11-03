@@ -18,8 +18,8 @@ In this repository, you will find a collection of data structures and algorithms
 
 ## Data Structures
 
-- [Array](Arrays): Implementations of the list data structure.
-- [LinkedList](data_structures/linked_list.py): Implementations of singly and doubly linked lists.
+- [Array](Data-Strucutres-and-Algorithm/Arrays): Implementations of the list data structure.
+- [LinkedList](Data-Structures-and-Algorithm/linked_list.py): Implementations of singly and doubly linked lists.
 - [Stack](data_structures/stack.py): Implementation of a stack data structure.
 - [Queue](data_structures/queue.py): Implementation of a queue data structure.
 - [BinaryTree](data_structures/binary_tree.py): Implementation of a binary tree.
